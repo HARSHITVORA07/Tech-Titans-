@@ -72,6 +72,11 @@ nav >ul{
     border: 2px solid black;
     width: 120px;
   }
+  
+  button[type="submit"]:hover{
+    background-color:#7f4323 ;
+  }
+
   button[type="submit"] {
     border: none;
     border-radius: 8px;
@@ -81,11 +86,7 @@ nav >ul{
     padding: 12px 20px;
     transition: background-color 0.2s;
   }
-  
-  button[type="submit"]:hover {
-    background-color: #6d7782;
-  }
-  
+
   #results {
     display: grid;
     gap: 40px;
