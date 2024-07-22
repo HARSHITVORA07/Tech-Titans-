@@ -1,0 +1,197 @@
+body {
+    background-color: #1f1f1f;
+    background-image:url(test2.jpg);
+    background-repeat: repeat-y;
+    background-size: 1920px 1080px1;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav >ul{
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  color:rgba(255, 215, 154, 0.945);
+  padding-top: -15px;
+  line-height: 0.1;
+}
+  header {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  .heading1 {
+    color: rgba(0, 0, 0, 0.945);
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: rgba(255, 215, 154, 0.345);
+    width: 500px;
+    height:50px;
+    border-radius: 20%;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:self-start;
+    margin: 40px 0;
+  }
+  .searchbar{
+    margin-top: 1vh;
+    display: flex;
+    height: 55px;
+    gap: 10px;
+    padding-bottom:200px
+  }
+  input[type="text"] {
+    color: white;
+    background-color: #000000bb;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px;
+    width: 400px;
+  }
+  .btn {
+    background-color: rgba(255, 215, 154, 0.945);
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+    font-size: 18px; 
+    font-family: sans-serif;
+    font-weight: 700;
+    border-radius: 13px;
+    border: 2px solid black;
+    width: 120px;
+  }
+  button[type="submit"] {
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 20px;
+    transition: background-color 0.2s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #6d7782;
+  }
+  
+  #results {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 40px 0;
+    
+  }
+  a{
+    color:rgba(255, 215, 154, 0.945);
+    text-align: center;
+    padding: 10%;
+    margin-right: 0px;
+    text-decoration:none;
+    width: fit-content;
+    background-color: rgba(255, 215, 154, 0.945);
+    cursor: pointer;
+    font-size: 18px; 
+      font-family: sans-serif;
+      font-weight: 700;
+      border-radius: 13px;
+      border: 2px solid black;
+      width: auto;
+
+  }
+  
+  #results > div {
+    background-color: rgba(255, 215, 154, 0.945);
+    border: 3.5px solid #7f4323;
+    font-family: 'Poppins';
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition-property: box-shadow,transform;
+    transition-duration: 0.3s;
+    position: relative;
+  }
+  #results>div:hover{
+    
+    background-color: #e3a60e;
+    transform:scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  #results img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+  
+  #results h3 {
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  #results ul {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+  }
+  
+  #results li {
+    font-family: 'Poppins';;
+    color:black;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  #results a {
+    background-color:#89593f;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    left: 25%;
+  }
+  
+  #results a:hover {
+    background-color: #95684f;
+  }
+
+  .splatter-box {
+    background-image: 
+      radial-gradient(circle at 20% 50%, #eddd67, transparent 50%),
+      radial-gradient(circle at 80% 30%, #eddd67, transparent 50%),
+      radial-gradient(circle at 50% 80%, #eddd67, transparent 50%),
+      radial-gradient(circle at 80% 70%, #652b05, transparent 50%); 
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+  }
+  .splatterbox1 {
+    background-color:rgba(255, 215, 154, 0.945) ;
+    position: relative;
+    overflow: hidden;
+    width:fit-content;
+    color: black;
+    border: 0;
+  }
